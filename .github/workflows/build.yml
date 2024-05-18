@@ -12,4 +12,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build image
-        run: docker build -t juice-shop
+        run: docker build -t juice-shop .
